@@ -9,4 +9,8 @@
 * **Materia:** Diseno Aplicaciones Web
 * **Profesor:** Jesus Pegueros
 
+# Markdown
+ Markdown es un lenguaje de marcado ligero que se utiliza para crear texto con formato (como títulos, negritas o listas) de una manera muy sencilla. En GitHub se usa principalmente para documentar proyectos y crear archivos README que sean fáciles de leer tanto para humanos como para computadoras.
+ 
+
 
