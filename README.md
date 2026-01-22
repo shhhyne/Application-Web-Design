@@ -32,3 +32,13 @@ En esta sección se listan los comandos fundamentales de Git para la gestión de
 Para verificar el estado de los archivos (saber si están en Stage, si tienen cambios o si el repositorio está limpio), se utiliza:
 
 `git status`
+
+### Agregar archivos al área de preparación (Stage)
+
+Para preparar los archivos antes de realizar un commit, podemos hacerlo de dos formas:
+
+* **De forma individual:** Permite elegir un archivo específico.
+  `git add nombre_del_archivo`
+
+* **De forma global:** Agrega todos los archivos con cambios en la carpeta actual de una sola vez.
+  `git add .`
