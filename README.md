@@ -49,4 +49,20 @@ Para registrar de forma permanente los archivos que están en el área de "Stage
 
 `git commit -m "Tu mensaje descriptivo aquí"`
 
-> **Nota:** El parámetro `-m` significa "message" (mensaje). Es una buena práctica escribir mensajes claros y breves en tiempo presente.
+> **Nota:** El parámetro `-m` significa "message" (mensaje). Es una buena práctica escribir mensajes claros y breves en tiempo presente.    
+
+### Gestión de Ramas (Branches)
+
+Las ramas permiten trabajar en diferentes versiones de un proyecto de forma aislada:
+
+* **Crear una rama:** Crea una nueva línea de tiempo para tus cambios.
+  `git branch nombre-de-la-rama`
+
+* **Listar ramas:** Muestra todas las ramas existentes y marca en cuál estás trabajando.
+  `git branch`
+
+* **Cambiar de rama:** Permite moverte entre las ramas creadas.
+  `git checkout nombre-de-la-rama`
+
+* **Eliminar una rama:** Borra una rama que ya no es necesaria (asegúrate de no estar dentro de ella al hacerlo).
+  `git branch -d nombre-de-la-rama`
