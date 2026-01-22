@@ -23,3 +23,12 @@ Markdown permite dar formato al texto de forma sencilla utilizando símbolos:
 * `Código`: Se usan comillas invertidas para resaltar comandos o fragmentos de código.
 * > Citas: Se usa el símbolo mayor que para crear bloques de texto resaltados.
 * Listas: Se usan guiones (-) o asteriscos (*) para crear viñetas.
+
+## Comandos de Git utilizados
+
+En esta sección se listan los comandos fundamentales de Git para la gestión del repositorio:
+
+### Consultar el estado del repositorio
+Para verificar el estado de los archivos (saber si están en Stage, si tienen cambios o si el repositorio está limpio), se utiliza:
+
+`git status`
