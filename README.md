@@ -66,3 +66,13 @@ Las ramas permiten trabajar en diferentes versiones de un proyecto de forma aisl
 
 * **Eliminar una rama:** Borra una rama que ya no es necesaria (asegúrate de no estar dentro de ella al hacerlo).
   `git branch -d nombre-de-la-rama`
+
+
+  ### Revertir cambios (Rollback)
+
+Para regresar el repositorio a un estado anterior o a un commit específico, se utiliza el comando reset. Existen diferentes niveles, pero el más común para deshacer cambios es:
+
+* **Regresar a un commit específico:**
+  `git reset --hard id_del_commit`
+
+> **Nota:** Para obtener el ID del commit (un código largo de números y letras), puedes usar el comando `git log`. Ten cuidado, ya que el parámetro `--hard` borrará todos los cambios que no hayan sido guardados después de ese commit.
