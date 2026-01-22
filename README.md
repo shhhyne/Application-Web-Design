@@ -42,3 +42,11 @@ Para preparar los archivos antes de realizar un commit, podemos hacerlo de dos f
 
 * **De forma global:** Agrega todos los archivos con cambios en la carpeta actual de una sola vez.
   `git add .`
+
+  ### Guardar cambios con un comentario (Commit)
+
+Para registrar de forma permanente los archivos que están en el área de "Stage" y asignarles un mensaje descriptivo del cambio realizado:
+
+`git commit -m "Tu mensaje descriptivo aquí"`
+
+> **Nota:** El parámetro `-m` significa "message" (mensaje). Es una buena práctica escribir mensajes claros y breves en tiempo presente.
